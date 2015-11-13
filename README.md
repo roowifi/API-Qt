@@ -1,6 +1,10 @@
 # RooWifi: WiFi adapter for Roomba API
 The latest version of RooWifi API is based on the gateway mode and it’s programmed using Qt Creator cross-platform IDE, which allows developers to use Windows, MAC, GNU/Linux,… Next revisions will have support and the required modifications to be able to develop with Visual Studio, gcc,g++ and Python
 
+In roowifi.h comment #define ROOWIFI_DEBUG to disable debug output messages, this define is enabled by default.
+
+If AutoCapture mode is used, when the RooWifi::Sensors is updated, the class generates an AutoCaptureUpdated() SIGNAL. If not the generated SIGNAL is DataReady() when a data byte is received from the RooWifi (eg, manual sensor reading using ExecuteCommand functions).
+
 ## TCP Socket Connection / Disconnection functions
 ### void SetIP( QString NewIP )
 Sets the IP address of RooWifi. You need to call this function to select the IP address of your device. By default the IP address of RooWifi is 10.0.0.1 (the default IP address of RooWifi in Ad-Hoc mode).
