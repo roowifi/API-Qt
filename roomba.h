@@ -3,7 +3,7 @@
  ** · roomba.h
  **
  ** Author
- ** · Xavier-Martí Carné (@xmcarne)
+ ** · RooWifi Development Team (@roowifi)
  **
  ** Date
  ** · 13-06-2013
@@ -26,7 +26,7 @@
  ** Information summary of versions :
  **
  ** Version     Author          Date
- ** 1.0b        @xmcarne        13 / 06 / 2013
+ ** 1.0b        @roowifi        13 / 06 / 2013
  ****************************************************************************/
 #ifndef ROOMBA_H
 #define ROOMBA_H
